@@ -1,0 +1,34 @@
+# Dependencies
+markdown:         kramdown
+kramdown:
+  input:          GFM
+gems:
+                  - jekyll-sitemap
+                  - jekyll-paginate
+
+# Permalinks
+permalink:        /:year/:month/:day/:title
+
+# Setup
+title:            如是我聞
+description:      '<a href="https://twitter.com/ztpala" target="_blank">@ztpala</a>'
+baseurl:          /
+url:              http://ztpala.com
+domain:           ztpala.com
+email:            ztpala@gmail.com
+twitter_username: ztpala
+github_username:  pala
+timezone:         America/New_York
+subscribe:        http://feed.ztpala.com
+exclude:          [ README.md, newpost.rb, CNAME ]
+
+author:
+  url:            https://twitter.com/ztpala
+
+paginate:         5
+
+github:
+  repo:           https://github.com/pala/pala.github.io
+
+disqus_shortname: ztpala
+google_analytics_id: UA-5531632-1
